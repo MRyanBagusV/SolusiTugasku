@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Warna latar belakang yang lembut */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Memastikan body memenuhi tinggi layar */
+}
+.navbar-brand img {
+    max-width: 50px; /* Ukuran logo */
+    border-radius: 50%; /* Membuat logo berbentuk bulat */
+}
+.navbar {
+    padding: 1rem; /* Padding pada navbar */
+    position: sticky; /* Membuat navbar tetap di atas saat scroll */
+    top: 0; /* Menempel di bagian atas */
+    z-index: 1000; /* Mengatur z-index agar navbar tetap di atas konten lain */
+}
+.navbar .nav-link {
+    color: white; /* Warna teks link */
+}
+.navbar .nav-link:hover {
+    color: #ccc; /* Warna saat hover */
+}
+.header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.header-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px; /* Jarak bawah deskripsi */
+}
+.card-title {
+    font-weight: bold; /* Judul artikel lebih tebal */
+}
+footer {
+    background-color: #343a40; /* Warna latar belakang footer */
+    margin-top: auto; /* Memastikan footer berada di bawah */
+    width: 100%; /* Memastikan footer memenuhi lebar layar */
+}
+footer p {
+    margin: 0; /* Menghapus margin footer */
+    margin-bottom: 10px;
+}
+.btn-custom {
+    background-color: #007bff; /* Warna tombol */
+    color: white; /* Warna teks tombol */
+}
+.btn-custom:hover {
+    background-color: #0056b3; /* Warna tombol saat hover */
+}
